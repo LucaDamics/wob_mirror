@@ -35,4 +35,6 @@ jobs:
           fi
           git add data/archive
           git commit -m "WOB update $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push
+
