@@ -2,9 +2,9 @@ name: Fetch Weekly Oil Bulletin
 
 on:
   schedule:
-    # Bulletin comes out Wednesday/Thursday. Thursday 15:00 UTC, Friday 09:00 UTC as a retry.
-    - cron: "0 15 * * 4"
-    - cron: "0 9 * * 5"
+    # Bulletin comes out Wednesday/Thursday. Thursday 15:00 UTC, Friday 09:00 UTC as a     
+    - cron: "0 5 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch: {}
 
 permissions:
